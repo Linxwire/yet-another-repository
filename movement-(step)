@@ -1,0 +1,26 @@
+///Movement
+
+var right_key = keyboard_check(vk_right);
+var left_key = keyboard_check(vk_left);
+var up_key = keyboard_check(vk_up);
+var down_key = keyboard_check(vk_down);
+
+//move right
+if (right_key) {
+    phy_position_x += movespeed;
+}
+
+//move left
+if (left_key) {
+    phy_position_x -= movespeed;
+}
+
+//move up
+if (up_key) {
+    phy_position_y -= movespeed;
+}
+
+//move down
+if (down_key) {
+    phy_position_y += movespeed;
+}
