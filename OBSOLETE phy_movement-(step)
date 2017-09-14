@@ -1,3 +1,5 @@
+***This document is only left here as a representation of a poor movement system. Avoid replication.***
+
 ///Movement
 
 var right_key = keyboard_check(vk_right);
